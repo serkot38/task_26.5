@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Helios';
+    src: url(/fonts/HELIOL.TTF);
+}
+
+html, body {
+    background: #ffffff url(/images/123.png);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#2f2f2f;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 10px 100px 150px 0px rgba(0,0,0,0.15);
+}
+
+.section-container {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Helios';
+    font-size: 20px;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: #2f2f2f;
+}
+
+nav ul li a:hover {
+    color:red;
+}
+
+.page {
+    margin: 0;
+    position: relative;
+    width: 900px;
+}
+
+.logo img {
+    width: 300px;
+}
+
+img {
+	margin: 5px 10px 10px 0;
+}
+
+.content {
+    padding: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+h1, h3 {
+    font-weight: normal;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #022a68;
+    margin: 0;
+    padding: 20px;
+    color:#ffffff;
+}
+
+.company {
+    padding-left: 30px;
+}
+
+th, td {
+	border: 1px solid #000000;
+	padding: 5px;
+}
